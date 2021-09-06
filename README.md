@@ -21,7 +21,12 @@ In this paper, we study the self-healing problem of unmanned aerial vehicle (UAV
 > cuda supports and GPU acceleration
 
 Note: other versions of the required packages may also work.
-### Download Trained Meta Parameters
+
+## Necessary Supplementary Download 
+As some of the necessary configuration files, including .xlsx and .npy files can not be uploaded to the github, we upload these files to the clouds. Anyone trying to run these codes need to download the necessary files.  
+### Download initial UAV positions (necessary)
+> To make the codes reproducible, you need to download the initial positions of UAVs we used in the experiment to the ./Configurations/ from https://cloud.tsinghua.edu.cn/f/c18807be55634378b30f/ or https://drive.google.com/file/d/1q1J-F2OAY_VDaNd1DWCfy_N2loN7o1XV/view?usp=sharing
+### Download Trained Meta Parameters (alternative)
 > Since the total size of meta parameters is about 1.2GB, we have uploaded the meta parameters to https://cloud.tsinghua.edu.cn/f/2cb28934bd9f4bf1bdd7/ and https://drive.google.com/file/d/1QPipenDZi_JctNH3oyHwUXsO7QwNnLOz/view?usp=sharing. You need to download the file from either two links if you want to use the trained meta parameters. Otherwise, you need to train the meta parameters again (directly run [Meta-learning_all.py](./Meta-learning_all.py))
 
 ## File and Directory Explainations
