@@ -8,7 +8,7 @@ Zhiyu Mou, Feifei Gao, Jun Liu, Ting Zhou, and Qihui Wu
 ## Problem Descriptions
 In this paper, we study the self-healing problem of unmanned aerial vehicle (UAV) swarm network (USNET) that is required to quickly rebuild the communication connectivity under unpredictable external destructions (UEDs). Firstly, to cope with the one-off UEDs, we propose a graph convolutional neural network (GCN) and find the recovery topology of the USNET in an on-line manner. Secondly, to cope with general UEDs, we develop a GCN based trajectory planning algorithm that can make UAVs rebuild the communication connectivity during the self-healing process. We also design a meta learning scheme to facilitate the on-line executions of the GCN. Numerical results show that the proposed algorithms can rebuild the communication connectivity of the USNET more quickly than the existing algorithms under both one-off UEDs and general UEDs. The simulation results also show that the meta learning scheme can not only enhance the performance of the GCN but also reduce the time complexity of the on-line executions.
 
-## Display of Main Results
+## Display of Main Results Demo
 randomly destruct 150 UAVs under one-off UEDs
 
 <img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/one_off_destruct_150.gif" width="320" alt="150">
@@ -28,8 +28,10 @@ Note: other versions of the required packages may also work.
 As some of the necessary configuration files, including .xlsx and .npy files can not be uploaded to the github, we upload these files to the clouds. Anyone trying to run these codes need to download the necessary files.  
 ### Download initial UAV positions (necessary)
 > To make the codes reproducible, you need to download the initial positions of UAVs we used in the experiment to the ./Configurations/ from https://cloud.tsinghua.edu.cn/f/c18807be55634378b30f/ or https://drive.google.com/file/d/1q1J-F2OAY_VDaNd1DWCfy_N2loN7o1XV/view?usp=sharing
-### Download Trained Meta Parameters (alternative)
+### Download Trained Meta Parameters (alternative, but if using meta learning without training again, then necessary)
 > Since the total size of meta parameters is about 1.2GB, we have uploaded the meta parameters to https://cloud.tsinghua.edu.cn/f/2cb28934bd9f4bf1bdd7/ and https://drive.google.com/file/d/1QPipenDZi_JctNH3oyHwUXsO7QwNnLOz/view?usp=sharing. You need to download the file from either two links if you want to use the trained meta parameters. Otherwise, you need to train the meta parameters again (directly run [Meta-learning_all.py](./Meta-learning_all.py))
+### Download Meta Learning Loss Functions Pictures (alternative)
+> The loss function pictures of meta learning are available on https://cloud.tsinghua.edu.cn/f/fc0d84f2c6374e29bcbe/ or https://drive.google.com/file/d/1cdceleZWyXcD1GxOPCYlLsRVTwNRWPBy/view?usp=sharing
 
 ## File and Directory Explainations
 * ./Configurations/  
