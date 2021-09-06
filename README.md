@@ -33,6 +33,22 @@ As some of the necessary configuration files, including .xlsx and .npy files can
 ### Download Meta Learning Loss Functions Pictures (alternative)
 > The loss function pictures of meta learning are available on https://cloud.tsinghua.edu.cn/f/fc0d84f2c6374e29bcbe/ or https://drive.google.com/file/d/1cdceleZWyXcD1GxOPCYlLsRVTwNRWPBy/view?usp=sharing
 
+## Quick Start
+### Simulate SCC under one-off UEDs
+directly run ./[Experiment_One_off_UED.py](./Experiment_One_off_UED.py)
+```python
+python Experiment_One_off_UED.py
+```
+### Simulate meta learning process
+directly run ./[Meta-learning_all.py](./Meta-learning_all.py)
+```python
+python Meta-learning_all.py
+```
+### Simulate SCC under general UEDs
+directly run ./[Experiment_General_UED.py](./Experiment_General_UED.py)
+```python
+python Experiment_General_UED.py
+```
 ## File and Directory Explainations
 * ./Configurations/  
 > the initial positions of 200 UAVs
