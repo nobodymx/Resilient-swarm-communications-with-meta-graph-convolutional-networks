@@ -5,6 +5,8 @@ This repository contains the source codes of
 
 Zhiyu Mou, Feifei Gao, Jun Liu, Ting Zhou, and Qihui Wu
 
+Fei-Lab
+
 ## Problem Descriptions
 In this paper, we study the self-healing problem of unmanned aerial vehicle (UAV) swarm network (USNET) that is required to quickly rebuild the communication connectivity under unpredictable external destructions (UEDs). Firstly, to cope with the one-off UEDs, we propose a graph convolutional neural network (GCN) and find the recovery topology of the USNET in an on-line manner. Secondly, to cope with general UEDs, we develop a GCN based trajectory planning algorithm that can make UAVs rebuild the communication connectivity during the self-healing process. We also design a meta learning scheme to facilitate the on-line executions of the GCN. Numerical results show that the proposed algorithms can rebuild the communication connectivity of the USNET more quickly than the existing algorithms under both one-off UEDs and general UEDs. The simulation results also show that the meta learning scheme can not only enhance the performance of the GCN but also reduce the time complexity of the on-line executions.
 
@@ -92,3 +94,5 @@ python Experiment_General_UED.py
 > the integration of algorithms under general UEDs
 * ./Utils.py/
 > the utility functions
+> 
+*Note that some drawing codes used in the paper are not uploaded to this responsitory.*
