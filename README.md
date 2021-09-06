@@ -10,7 +10,6 @@ In this paper, we study the self-healing problem of unmanned aerial vehicle (UAV
 
 ## Display of Main Results
 <img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/one_off_destruct_150.gif" width="320" alt="150">
-![image](https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/one_off_destruct_150.gif)
 ## Environment Requirements
 > pytorch==1.6.0  
 > torchvision==0.7.0   
