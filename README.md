@@ -95,4 +95,4 @@ python Experiment_General_UED.py
 * ./Utils.py/
 > the utility functions
 > 
-*Note that some drawing codes used in the paper are not uploaded to this responsitory.*
+*Note that some unnecessary drawing codes used in the paper are not uploaded to this responsitory.*
