@@ -31,7 +31,7 @@ randomly destruct 100 UAVs
 Note: other versions of the required packages may also work.
 
 The machine we use
-> CPU: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz
+> CPU: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz  
 > GPU: NVIDIA GeForce RTX 3090
 
 ## Necessary Supplementary Download 
