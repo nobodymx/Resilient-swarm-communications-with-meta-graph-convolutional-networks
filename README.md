@@ -30,6 +30,10 @@ randomly destruct 100 UAVs
 
 Note: other versions of the required packages may also work.
 
+The machine we use
+> CPU: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz
+> GPU: NVIDIA GeForce RTX 3090
+
 ## Necessary Supplementary Download 
 As some of the necessary configuration files, including .xlsx and .npy files can not be uploaded to the github, we upload these files to the clouds. Anyone trying to run these codes need to download the necessary files.  
 ### Download initial UAV positions (necessary)
@@ -37,7 +41,7 @@ As some of the necessary configuration files, including .xlsx and .npy files can
 ### Download Trained Meta Parameters (alternative, but if using meta learning without training again, then necessary)
 > Since the total size of meta parameters is about 1.2GB, we have uploaded the meta parameters to https://cloud.tsinghua.edu.cn/f/2cb28934bd9f4bf1bdd7/ and https://drive.google.com/file/d/1QPipenDZi_JctNH3oyHwUXsO7QwNnLOz/view?usp=sharing. You need to download the file from either two links if you want to use the trained meta parameters. Otherwise, you need to train the meta parameters again (directly run [Meta-learning_all.py](./Meta-learning_all.py))
 ### Download Meta Learning Loss Functions Pictures (alternative)
-> The loss function pictures of meta learning are available on https://cloud.tsinghua.edu.cn/f/fc0d84f2c6374e29bcbe/ or https://drive.google.com/file/d/1cdceleZWyXcD1GxOPCYlLsRVTwNRWPBy/view?usp=sharing
+> The loss function pictures of meta learning are available on https://cloud.tsinghua.edu.cn/f/fc0d84f2c6374e29bcbe/ and https://drive.google.com/file/d/1cdceleZWyXcD1GxOPCYlLsRVTwNRWPBy/view?usp=sharing
 
 ## Quick Start
 ### Simulate SCC under one-off UEDs
