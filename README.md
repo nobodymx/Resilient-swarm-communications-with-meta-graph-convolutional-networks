@@ -13,7 +13,7 @@ In this paper, we study the self-healing of communication connectivity (SCC) pro
 ## Display of Main Results Demo
 randomly destruct 150 UAVs 
 
-<img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/one_off_destruct_150.gif" width="320" alt="150">
+<img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/one_off_destruct_150.gif" width="320" alt="150" "150">
 
 randomly destruct 100 UAVs
 
