@@ -18,6 +18,7 @@ randomly destruct 150 UAVs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 
 ### General UEDs
 general UEDs
+
 <img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/general_UEDs_low_quality.gif" width="320 alt="general">
 
 ## Environment Requirements
