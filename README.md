@@ -55,7 +55,7 @@ directly run ./[Experiment_General_UED.py](./Experiment_General_UED.py)
 ```python
 python Experiment_General_UED.py
 ```
-## File and Directory Explainations
+## File and Directory Explanations
 * ./Configurations/  
 > the initial positions of 200 UAVs
 * ./Drawing/  
