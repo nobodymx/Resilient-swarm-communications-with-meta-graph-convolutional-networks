@@ -36,7 +36,7 @@ The machine we use
 > CPU: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz  
 > GPU: NVIDIA GeForce RTX 3090
 
-## Necessary Supplementary Download 
+## Necessary Supplementary Downloads 
 As some of the necessary configuration files, including .xlsx and .npy files can not be uploaded to the github, we upload these files to the clouds. Anyone trying to run these codes need to download the necessary files.  
 ### Download initial UAV positions (necessary)
 > To make the codes reproducible, you need to download the initial positions of UAVs we used in the experiment to the ./Configurations/ from https://cloud.tsinghua.edu.cn/f/c18807be55634378b30f/ or https://drive.google.com/file/d/1q1J-F2OAY_VDaNd1DWCfy_N2loN7o1XV/view?usp=sharing
