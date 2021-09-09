@@ -17,9 +17,9 @@ randomly destruct 150 UAVs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 <img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/one_off_destruct_150.gif" width="320" alt="150">  <img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/one_off_destruct_100.gif" width="320" alt="100">
 
 ### General UEDs
-general UEDs
+general UEDs with global information &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    general UEDs with monitoring mechanism
 
-<img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/general_UEDs_low_quality.gif" width="320" alt="general">
+<img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/general_UEDs_global_info_low_quality.gif" width="320" alt="general_global_info"> <img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/general_UEDs_low_quality.gif" width="320" alt="general">
 
 ## Environment Requirements
 > pytorch==1.6.0  
