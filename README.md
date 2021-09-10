@@ -21,6 +21,7 @@ general UEDs with global information &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    gener
 
 <img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/general_UEDs_global_info_low_quality.gif" width="320" alt="general_global_info"> <img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/general_UEDs_low_quality.gif" width="320" alt="general">
 
+> Note: these are gifs. It may take a few seconds to display. You can refresh the page if they cannot display normally. Or you can view them in [./video](./video).
 ## Environment Requirements
 > pytorch==1.6.0  
 > torchvision==0.7.0   
@@ -39,11 +40,11 @@ The machine we use
 ## Necessary Supplementary Downloads 
 As some of the necessary configuration files, including .xlsx and .npy files can not be uploaded to the github, we upload these files to the clouds. Anyone trying to run these codes need to download the necessary files.  
 ### Download initial UAV positions (necessary)
-> To make the codes reproducible, you need to download the initial positions of UAVs we used in the experiment to the ./Configurations/ from https://cloud.tsinghua.edu.cn/f/c18807be55634378b30f/ or https://drive.google.com/file/d/1q1J-F2OAY_VDaNd1DWCfy_N2loN7o1XV/view?usp=sharing
+> To make the codes reproducible, you need to download the initial positions of UAVs we used in the experiment to the [./Configurations/](./Configurations) from https://cloud.tsinghua.edu.cn/f/c18807be55634378b30f/ or https://drive.google.com/file/d/1q1J-F2OAY_VDaNd1DWCfy_N2loN7o1XV/view?usp=sharing
 ### Download Trained Meta Parameters (alternative, but if using meta learning without training again, then necessary)
-> Since the total size of meta parameters is about 1.2GB, we have uploaded the meta parameters to https://cloud.tsinghua.edu.cn/f/2cb28934bd9f4bf1bdd7/ and https://drive.google.com/file/d/1QPipenDZi_JctNH3oyHwUXsO7QwNnLOz/view?usp=sharing. You need to download the file from either two links if you want to use the trained meta parameters. Otherwise, you need to train the meta parameters again (directly run [Meta-learning_all.py](./Meta-learning_all.py))
+> Since the total size of meta parameters is about 1.2GB, we have uploaded the meta parameters to https://cloud.tsinghua.edu.cn/f/2cb28934bd9f4bf1bdd7/ and https://drive.google.com/file/d/1QPipenDZi_JctNH3oyHwUXsO7QwNnLOz/view?usp=sharing. You need to download the file from either two links to [./Meta_Learning_Results/meta_parameters/](./Meta_Learning_Results/meta_parameters/)if you want to use the trained meta parameters. Otherwise, you need to train the meta parameters again (directly run [Meta-learning_all.py](./Meta-learning_all.py))
 ### Download Meta Learning Loss Functions Pictures (alternative)
-> The loss function pictures of meta learning are available on https://cloud.tsinghua.edu.cn/f/fc0d84f2c6374e29bcbe/ and https://drive.google.com/file/d/1cdceleZWyXcD1GxOPCYlLsRVTwNRWPBy/view?usp=sharing
+> The loss function pictures of meta learning are available on https://cloud.tsinghua.edu.cn/f/fc0d84f2c6374e29bcbe/ and https://drive.google.com/file/d/1cdceleZWyXcD1GxOPCYlLsRVTwNRWPBy/view?usp=sharing. You can store them in [./Meta_Learning_Results/meta_loss_pic/](./Meta_Learning_Results/meta_loss_pic/)
 
 ## Quick Start
 ### Simulate SCC under one-off UEDs
