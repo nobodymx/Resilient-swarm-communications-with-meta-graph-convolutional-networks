@@ -3,7 +3,7 @@ This repository contains the source codes of
 
 [Resilient UAV Swarm Communications with Graph Convolutional Neural Network](https://arxiv.org/abs/2106.16048)
 
-Zhiyu Mou, Feifei Gao, Jun Liu, Ting Zhou, and Qihui Wu
+Zhiyu Mou, Feifei Gao, Jun Liu, and Qihui Wu
 
 Fei-Lab
 
