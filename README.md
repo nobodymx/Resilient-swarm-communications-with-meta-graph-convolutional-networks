@@ -12,7 +12,7 @@ This work propose a meta GCN algorithm to realize the fast connectivity restore 
 
 ## Display of Main Results Demo
 ### One-off UEDs
-randomly destruct 150 UAVs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;     randomly destruct 100 UAVs
+randomly destruct 150 robots(UAVs) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;     randomly destruct 100 robots(UAVs)
 
 <img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/one_off_destruct_150.gif" width="320" alt="150">  <img src="https://github.com/nobodymx/resilient_swarm_communications_with_meta_graph_convolutional_networks/blob/main/video/one_off_destruct_100.gif" width="320" alt="100">
 
