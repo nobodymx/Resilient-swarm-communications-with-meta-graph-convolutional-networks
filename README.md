@@ -8,9 +8,9 @@ Zhiyu Mou, Feifei Gao, Jun Liu, and Qihui Wu
 Fei-Lab
 
 ## Problem Descriptions
-This work propose a meta GCN algorithm to realize the fast connectivity restore of initially connected robotic networks (RNs) with random nodes destroyed afterwards. Specifically, we first propose a GCO to heal the connectivity of the RNs and prove its convergence with contracting mapping. We then extend the GCO to a GCN with a carefully designed Lagrange-form loss function. The GCN is trained to find the healing topology of the RNs. Thirdly, we utilize the meta learninig scheme to find potential parameters for GCN, which can speed up its on-line training. In addition, we also consider the general destructions to the RNs and propose an efficient algorithm to restore the connectivity of RNs based on the proposed meta GCN.
+This work proposes a meta GCN algorithm to realize the fast connectivity restore of initially connected robotic networks (RNs) with random nodes destroyed afterward. Specifically, we first propose a GCO to heal the connectivity of the RNs and prove its convergence with contracting mapping. We then extend the GCO to a GCN with a carefully designed Lagrange-form loss function. The GCN is trained to find the healing topology of the RNs. Thirdly, we utilize the meta-learning scheme to find potential parameters for GCN, which can speed up its online training. In addition, we also consider the general destructions to the RNs and propose an efficient algorithm to restore the connectivity of RNs based on the proposed meta GCN.
 
-## Display of Main Results Demo
+## Main Results Demo
 ### One-off UEDs
 randomly destruct 150 robots (e.g. UAVs) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;     randomly destruct 100 robots (e.g.UAVs)
 
@@ -29,7 +29,7 @@ general UEDs with global information &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    gener
 > matplotlib==3.2.2  
 > pandas==1.0.5  
 > seaborn==0.10.1   
-> cuda supports and GPU acceleration
+> Cuda supports and GPU acceleration
 
 Note: other versions of the required packages may also work.
 
@@ -38,13 +38,13 @@ The machine we use
 > GPU: NVIDIA GeForce RTX 3090
 
 ## Necessary Supplementary Downloads 
-As some of the necessary configuration files, including .xlsx and .npy files can not be uploaded to the github, we upload these files to the clouds. Anyone trying to run these codes need to download the necessary files.  
+As some of the necessary configuration files, including .xlsx and .npy files can not be uploaded to GitHub, we upload these files to the cloud. Anyone trying to run these codes needs to download the necessary files.  
 ### Download initial UAV positions (necessary)
-> To make the codes reproducible, you need to download the initial positions of UAVs we used in the experiment from https://cloud.tsinghua.edu.cn/f/c18807be55634378b30f/ or https://drive.google.com/file/d/1q1J-F2OAY_VDaNd1DWCfy_N2loN7o1XV/view?usp=sharing. Upzip the download files to [./Configurations/](./Configurations).
-### Download Trained Meta Parameters (alternative, but if using meta learning without training again, then necessary)
+> To make the codes reproducible, you need to download the initial positions of UAVs we used in the experiment from https://cloud.tsinghua.edu.cn/f/c18807be55634378b30f/ or https://drive.google.com/file/d/1q1J-F2OAY_VDaNd1DWCfy_N2loN7o1XV/view?usp=sharing. Unzip the download files to [./Configurations/](./Configurations).
+### Download Trained Meta Parameters (alternative, but if using meta-learning without training again, then necessary)
 > Since the total size of meta parameters is about 1.2GB, we have uploaded the meta parameters to https://cloud.tsinghua.edu.cn/f/2cb28934bd9f4bf1bdd7/ and https://drive.google.com/file/d/1QPipenDZi_JctNH3oyHwUXsO7QwNnLOz/view?usp=sharing. You need to download the file from either two links and unzip them to [./Meta_Learning_Results/meta_parameters/](./Meta_Learning_Results/meta_parameters/)if you want to use the trained meta parameters. Otherwise, you need to train the meta parameters again (directly run [Meta-learning_all.py](./Meta-learning_all.py))
 ### Download Meta Learning Loss Functions Pictures (alternative)
-> The loss function pictures of meta learning are available on https://cloud.tsinghua.edu.cn/f/fc0d84f2c6374e29bcbe/ and https://drive.google.com/file/d/1cdceleZWyXcD1GxOPCYlLsRVTwNRWPBy/view?usp=sharing. You can store them in [./Meta_Learning_Results/meta_loss_pic/](./Meta_Learning_Results/meta_loss_pic/)
+> The loss function pictures of meta-learning are available on https://cloud.tsinghua.edu.cn/f/fc0d84f2c6374e29bcbe/ and https://drive.google.com/file/d/1cdceleZWyXcD1GxOPCYlLsRVTwNRWPBy/view?usp=sharing. You can store them in [./Meta_Learning_Results/meta_loss_pic/](./Meta_Learning_Results/meta_loss_pic/)
 
 ## Quick Start
 ### Simulate SCC under one-off UEDs
@@ -52,7 +52,7 @@ directly run ./[Experiment_One_off_UED.py](./Experiment_One_off_UED.py)
 ```python
 python Experiment_One_off_UED.py
 ```
-### Simulate meta learning process
+### Simulate the meta-learning process
 directly run ./[Meta-learning_all.py](./Meta-learning_all.py)
 ```python
 python Meta-learning_all.py
@@ -64,46 +64,46 @@ python Experiment_General_UED.py
 ```
 ## File and Directory Explanations
 * ./Configurations/  
-> the initial positions of 200 UAVs
+> The initial positions of 200 UAVs
 * ./Drawing/  
-> the drawing functions
+> The drawing functions
 * ./Experiment_Fig/  
-> the experiment figures and the drawing source codes
+> The experiment figures and the drawing source codes
 * ./Main_algorithm_GCN/  
-> the proposed algorithms in the paper
+> The proposed algorithms in the paper
 > * ./Main_algorithm_GCN/CR_MGC.py
-> > the CR-MGC algorithm (Algorithm 2 in the paper)
+> > The CR-MGC algorithm (Algorithm 2 in the paper)
 > * ./Main_algorithm_GCN/GCO.py
-> > the GCO algorithm
+> > The GCO algorithm
 > * ./Main_algorithm_GCN/Smallest_d_algorithm.py
 > > algorithm of finding the smallest distance to make the RUAV graph a CCN (Algorithm 1 in the paper)
 * ./Meta_Learning_Results/  
-> the results of meta learning
+> The results of meta-learning
 > * ./Meta_Learning_Results/meta_loss_pic
-> > the loss function pictures of 199 mGCNs
+> > The loss function pictures of 199 mGCNs
 > * ./Meta_Learning_Results/meta_parameters
-> > the meta parameters (Since the total size of meta parameters is about 1.2GB, we have uploaded the meta parameters to https://cloud.tsinghua.edu.cn/f/2cb28934bd9f4bf1bdd7/ or https://drive.google.com/file/d/1QPipenDZi_JctNH3oyHwUXsO7QwNnLOz/view?usp=sharing)
+> > The meta parameters (Since the total size of meta parameters is about 1.2GB, we have uploaded the meta parameters to https://cloud.tsinghua.edu.cn/f/2cb28934bd9f4bf1bdd7/ or https://drive.google.com/file/d/1QPipenDZi_JctNH3oyHwUXsO7QwNnLOz/view?usp=sharing)
 * ./Traditional_Algorithm/  
-> the implementations of traditional algorithms
+> The implementations of traditional algorithms
 * ./video/
-> the gif files of one-off UEDs
+> The gif files of one-off UEDs
 * ./Configurations.py
-> the simulation parameters
+> The simulation parameters
 * ./Environment.py
-> the Environment generating UEDs
+> The environment generating UEDs
 * ./Experiment_General_UED.py/
-> the simulation under general UEDs
+> The simulation under general UEDs
 * ./Experiment_One_off_UED.py/
-> the simulation under one-off UEDs
+> The simulation under one-off UEDs
 * ./Experiment_One_off_UED_draw_Fig_12_d.py/
 > draw the Fig. 12(d) in the simulation under one-off UEDs
 * ./Meta-learning_all.py/
-> the meta learning
+> the meta-learning
 * ./Swarm.py/
-> the integration of algorithms under one-off UEDs
+> The integration of algorithms under one-off UEDs
 * ./Swarm_general.py/
-> the integration of algorithms under general UEDs
+> The integration of algorithms under general UEDs
 * ./Utils.py/
-> the utility functions
+> The utility functions
 > 
-*Note that some unnecessary drawing codes used in the paper are not uploaded to this responsitory.*
+*Note that some unnecessary drawing codes used in the paper are not uploaded to this repository.*
